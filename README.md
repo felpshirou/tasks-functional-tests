@@ -1,2 +1,2 @@
 # tasks-functional-tests
-Testes funcionais via Selenium para testar applicação Tasks.
+Testes funcionais via Selenium para testar aplicação Tasks.
