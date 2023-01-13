@@ -10,7 +10,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class TasksTest {
 	
-	public WebDriver AcessarApp() {
+	public WebDriver AcessarApp(){
 		WebDriver driver = new ChromeDriver();
 		driver.navigate().to("http://localhost:8001/tasks");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -18,11 +18,11 @@ public class TasksTest {
 	}
 	
 @Test
-public void SalvarTarefa() {
+public void SalvarTarefa(){
 	WebDriver driver = AcessarApp();
 	driver.findElement(By.id("addTodo")).click();
 	driver.findElement(By.id("task")).sendKeys("Teste via Selenium");
-	driver.findElement(By.id("dueDate")).sendKeys("30/12/2022");
+	driver.findElement(By.id("dueDate")).sendKeys("30/12/2023");
 	
 	driver.findElement(By.id("saveButton")).click();
 	
@@ -36,7 +36,7 @@ public void SemTask() {
 	WebDriver driver = AcessarApp();
 	
 	driver.findElement(By.id("addTodo")).click();
-	driver.findElement(By.id("dueDate")).sendKeys("30/12/2022");
+	driver.findElement(By.id("dueDate")).sendKeys("30/12/2023");
 	driver.findElement(By.id("saveButton")).click();
 	String mensagem = driver.findElement(By.id("message")).getText();
 	Assert.assertEquals("Fill the task description", mensagem);
@@ -56,7 +56,7 @@ public void SemData() {
 }
 
 @Test
-public void DataInvalida() {
+public void DataInvalida()  {
 	WebDriver driver = AcessarApp();
 	
 	driver.findElement(By.id("addTodo")).click();

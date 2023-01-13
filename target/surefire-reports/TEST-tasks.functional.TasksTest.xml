@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="tasks.functional.TasksTest" time="0.695" tests="4" errors="4" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_333\jre\bin"/>
+    <property name="java.vm.version" value="25.333-b02"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Felp\Documents\Devops\tasks-functional-tests"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Felp\Documents\Devops\tasks-functional-tests"/>
+    <property name="java.runtime.version" value="1.8.0_333-b02"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_333\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Felp\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\Felp\Cursos_Test\apache-maven-3.8.6\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_333\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\ProgramData\UNIVALI\Portugol Studio;C:\Users\Felp\Cursos_Test\apache-maven-3.8.6\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Users\Felp\AppData\Local\Microsoft\WindowsApps;C:\Users\Felp\.dotnet\tools;C:\BrowserDrivers;;."/>
+    <property name="maven.conf" value="C:\Users\Felp\Cursos_Test\apache-maven-3.8.6/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Users\Felp\Cursos_Test\apache-maven-3.8.6\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\Felp"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Felp"/>
+    <property name="java.class.path" value="C:\Users\Felp\Cursos_Test\apache-maven-3.8.6\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_333\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="pt"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_333"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_333\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_333\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_333\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_333\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_333\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_333\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_333\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_333\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_333\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp850"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\Felp\Cursos_Test\apache-maven-3.8.6"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp850"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="SalvarTarefa" classname="tasks.functional.TasksTest" time="0.695">
+    <error message="Unable to parse remote response: &lt;!DOCTYPE html&gt;&#10;&lt;html lang=&quot;en&quot;&gt;&#10;&lt;head&gt;&#10;  &lt;meta charset=&quot;UTF-8&quot;&gt;&#10;  &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;/assets/displayhelpservlet.css&quot; media=&quot;all&quot;/&gt;&#10;  &lt;link href=&quot;/assets/favicon.ico&quot; rel=&quot;icon&quot; type=&quot;image/x-icon&quot; /&gt;&#10;  &lt;script src=&quot;/assets/jquery-3.1.1.min.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;&#10;  &lt;script src=&quot;/assets/displayhelpservlet.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;&#10;  &lt;script type=&quot;text/javascript&quot;&gt;&#10;    var json = Object.freeze(&apos;{&quot;consoleLink&quot;: &quot;\u002fgrid\u002fconsole&quot;,&quot;type&quot;: &quot;Grid Hub&quot;,&quot;class&quot;: &quot;org.openqa.grid.web.servlet.DisplayHelpHandler$DisplayHelpServletConfig&quot;,&quot;version&quot;: &quot;3.141.59&quot;}&apos;);&#10;  &lt;/script&gt;&#10;&lt;/head&gt;&#10;&lt;body&gt;&#10;&#10;&lt;div id=&quot;content&quot;&gt;&#10;  &lt;div id=&quot;help-heading&quot;&gt;&#10;    &lt;h1&gt;&lt;span id=&quot;logo&quot;&gt;&lt;/span&gt;&lt;/h1&gt;&#10;    &lt;h2&gt;Selenium &lt;span class=&quot;se-type&quot;&gt;&lt;/span&gt;&amp;nbsp;v.&lt;span class=&quot;se-version&quot;&gt;&lt;/span&gt;&lt;/h2&gt;&#10;  &lt;/div&gt;&#10;&#10;  &lt;div id=&quot;content-body&quot;&gt;&#10;    &lt;p&gt;&#10;      Whoops! The URL specified routes to this help page.&#10;    &lt;/p&gt;&#10;    &lt;p&gt;&#10;      For more information about Selenium &lt;span class=&quot;se-type&quot;&gt;&lt;/span&gt; please see the&#10;      &lt;a class=&quot;se-docs&quot;&gt;docs&lt;/a&gt; and/or visit the &lt;a class=&quot;se-wiki&quot;&gt;wiki&lt;/a&gt;.&#10;      &lt;span id=&quot;console-item&quot;&gt;&#10;        Or perhaps you are looking for the Selenium &lt;span class=&quot;se-type&quot;&gt;&lt;/span&gt; &lt;a class=&quot;se-console&quot;&gt;console&lt;/a&gt;.&#10;      &lt;/span&gt;&#10;    &lt;/p&gt;&#10;    &lt;p&gt;&#10;      Happy Testing!&#10;    &lt;/p&gt;&#10;  &lt;/div&gt;&#10;&#10;  &lt;div&gt;&#10;    &lt;footer id=&quot;help-footer&quot;&gt;&#10;      Selenium is made possible through the efforts of our open source community, contributions from&#10;      these &lt;a href=&quot;https://github.com/SeleniumHQ/selenium/blob/master/AUTHORS&quot;&gt;people&lt;/a&gt;, and our&#10;      &lt;a href=&quot;http://www.seleniumhq.org/sponsors/&quot;&gt;sponsors&lt;/a&gt;.&#10;   &lt;/footer&gt;&#10;  &lt;/div&gt;&#10; &lt;/div&gt;&#10;&#10;&lt;/body&gt;&#10;&lt;/html&gt;" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+Unable to parse remote response: <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="/assets/displayhelpservlet.css" media="all"/>
+  <link href="/assets/favicon.ico" rel="icon" type="image/x-icon" />
+  <script src="/assets/jquery-3.1.1.min.js" type="text/javascript"></script>
+  <script src="/assets/displayhelpservlet.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    var json = Object.freeze('{"consoleLink": "\u002fgrid\u002fconsole","type": "Grid Hub","class": "org.openqa.grid.web.servlet.DisplayHelpHandler$DisplayHelpServletConfig","version": "3.141.59"}');
+  </script>
+</head>
+<body>
+
+<div id="content">
+  <div id="help-heading">
+    <h1><span id="logo"></span></h1>
+    <h2>Selenium <span class="se-type"></span>&nbsp;v.<span class="se-version"></span></h2>
+  </div>
+
+  <div id="content-body">
+    <p>
+      Whoops! The URL specified routes to this help page.
+    </p>
+    <p>
+      For more information about Selenium <span class="se-type"></span> please see the
+      <a class="se-docs">docs</a> and/or visit the <a class="se-wiki">wiki</a>.
+      <span id="console-item">
+        Or perhaps you are looking for the Selenium <span class="se-type"></span> <a class="se-console">console</a>.
+      </span>
+    </p>
+    <p>
+      Happy Testing!
+    </p>
+  </div>
+
+  <div>
+    <footer id="help-footer">
+      Selenium is made possible through the efforts of our open source community, contributions from
+      these <a href="https://github.com/SeleniumHQ/selenium/blob/master/AUTHORS">people</a>, and our
+      <a href="http://www.seleniumhq.org/sponsors/">sponsors</a>.
+   </footer>
+  </div>
+ </div>
+
+</body>
+</html>
+	at tasks.functional.TasksTest.AcessarApp(TasksTest.java:20)
+	at tasks.functional.TasksTest.SalvarTarefa(TasksTest.java:28)
+Caused by: org.openqa.selenium.json.JsonException: 
+Unable to determine type from: <. Last 1 characters read: <
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-E4K4UQN', ip: '192.168.2.116', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: driver.version: RemoteWebDriver
+	at tasks.functional.TasksTest.AcessarApp(TasksTest.java:20)
+	at tasks.functional.TasksTest.SalvarTarefa(TasksTest.java:28)
+]]></error>
+    <system-err><![CDATA[dez 29, 2022 11:26:02 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMAÇÕES: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+]]></system-err>
+  </testcase>
+  <testcase name="SemTask" classname="tasks.functional.TasksTest" time="0.695">
+    <error message="Unable to parse remote response: &lt;!DOCTYPE html&gt;&#10;&lt;html lang=&quot;en&quot;&gt;&#10;&lt;head&gt;&#10;  &lt;meta charset=&quot;UTF-8&quot;&gt;&#10;  &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;/assets/displayhelpservlet.css&quot; media=&quot;all&quot;/&gt;&#10;  &lt;link href=&quot;/assets/favicon.ico&quot; rel=&quot;icon&quot; type=&quot;image/x-icon&quot; /&gt;&#10;  &lt;script src=&quot;/assets/jquery-3.1.1.min.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;&#10;  &lt;script src=&quot;/assets/displayhelpservlet.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;&#10;  &lt;script type=&quot;text/javascript&quot;&gt;&#10;    var json = Object.freeze(&apos;{&quot;consoleLink&quot;: &quot;\u002fgrid\u002fconsole&quot;,&quot;type&quot;: &quot;Grid Hub&quot;,&quot;class&quot;: &quot;org.openqa.grid.web.servlet.DisplayHelpHandler$DisplayHelpServletConfig&quot;,&quot;version&quot;: &quot;3.141.59&quot;}&apos;);&#10;  &lt;/script&gt;&#10;&lt;/head&gt;&#10;&lt;body&gt;&#10;&#10;&lt;div id=&quot;content&quot;&gt;&#10;  &lt;div id=&quot;help-heading&quot;&gt;&#10;    &lt;h1&gt;&lt;span id=&quot;logo&quot;&gt;&lt;/span&gt;&lt;/h1&gt;&#10;    &lt;h2&gt;Selenium &lt;span class=&quot;se-type&quot;&gt;&lt;/span&gt;&amp;nbsp;v.&lt;span class=&quot;se-version&quot;&gt;&lt;/span&gt;&lt;/h2&gt;&#10;  &lt;/div&gt;&#10;&#10;  &lt;div id=&quot;content-body&quot;&gt;&#10;    &lt;p&gt;&#10;      Whoops! The URL specified routes to this help page.&#10;    &lt;/p&gt;&#10;    &lt;p&gt;&#10;      For more information about Selenium &lt;span class=&quot;se-type&quot;&gt;&lt;/span&gt; please see the&#10;      &lt;a class=&quot;se-docs&quot;&gt;docs&lt;/a&gt; and/or visit the &lt;a class=&quot;se-wiki&quot;&gt;wiki&lt;/a&gt;.&#10;      &lt;span id=&quot;console-item&quot;&gt;&#10;        Or perhaps you are looking for the Selenium &lt;span class=&quot;se-type&quot;&gt;&lt;/span&gt; &lt;a class=&quot;se-console&quot;&gt;console&lt;/a&gt;.&#10;      &lt;/span&gt;&#10;    &lt;/p&gt;&#10;    &lt;p&gt;&#10;      Happy Testing!&#10;    &lt;/p&gt;&#10;  &lt;/div&gt;&#10;&#10;  &lt;div&gt;&#10;    &lt;footer id=&quot;help-footer&quot;&gt;&#10;      Selenium is made possible through the efforts of our open source community, contributions from&#10;      these &lt;a href=&quot;https://github.com/SeleniumHQ/selenium/blob/master/AUTHORS&quot;&gt;people&lt;/a&gt;, and our&#10;      &lt;a href=&quot;http://www.seleniumhq.org/sponsors/&quot;&gt;sponsors&lt;/a&gt;.&#10;   &lt;/footer&gt;&#10;  &lt;/div&gt;&#10; &lt;/div&gt;&#10;&#10;&lt;/body&gt;&#10;&lt;/html&gt;" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+Unable to parse remote response: <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="/assets/displayhelpservlet.css" media="all"/>
+  <link href="/assets/favicon.ico" rel="icon" type="image/x-icon" />
+  <script src="/assets/jquery-3.1.1.min.js" type="text/javascript"></script>
+  <script src="/assets/displayhelpservlet.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    var json = Object.freeze('{"consoleLink": "\u002fgrid\u002fconsole","type": "Grid Hub","class": "org.openqa.grid.web.servlet.DisplayHelpHandler$DisplayHelpServletConfig","version": "3.141.59"}');
+  </script>
+</head>
+<body>
+
+<div id="content">
+  <div id="help-heading">
+    <h1><span id="logo"></span></h1>
+    <h2>Selenium <span class="se-type"></span>&nbsp;v.<span class="se-version"></span></h2>
+  </div>
+
+  <div id="content-body">
+    <p>
+      Whoops! The URL specified routes to this help page.
+    </p>
+    <p>
+      For more information about Selenium <span class="se-type"></span> please see the
+      <a class="se-docs">docs</a> and/or visit the <a class="se-wiki">wiki</a>.
+      <span id="console-item">
+        Or perhaps you are looking for the Selenium <span class="se-type"></span> <a class="se-console">console</a>.
+      </span>
+    </p>
+    <p>
+      Happy Testing!
+    </p>
+  </div>
+
+  <div>
+    <footer id="help-footer">
+      Selenium is made possible through the efforts of our open source community, contributions from
+      these <a href="https://github.com/SeleniumHQ/selenium/blob/master/AUTHORS">people</a>, and our
+      <a href="http://www.seleniumhq.org/sponsors/">sponsors</a>.
+   </footer>
+  </div>
+ </div>
+
+</body>
+</html>
+	at tasks.functional.TasksTest.AcessarApp(TasksTest.java:20)
+	at tasks.functional.TasksTest.SemTask(TasksTest.java:42)
+Caused by: org.openqa.selenium.json.JsonException: 
+Unable to determine type from: <. Last 1 characters read: <
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-E4K4UQN', ip: '192.168.2.116', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: driver.version: RemoteWebDriver
+	at tasks.functional.TasksTest.AcessarApp(TasksTest.java:20)
+	at tasks.functional.TasksTest.SemTask(TasksTest.java:42)
+]]></error>
+    <system-err><![CDATA[dez 29, 2022 11:26:02 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMAÇÕES: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+]]></system-err>
+  </testcase>
+  <testcase name="DataInvalida" classname="tasks.functional.TasksTest" time="0.695">
+    <error message="Unable to parse remote response: &lt;!DOCTYPE html&gt;&#10;&lt;html lang=&quot;en&quot;&gt;&#10;&lt;head&gt;&#10;  &lt;meta charset=&quot;UTF-8&quot;&gt;&#10;  &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;/assets/displayhelpservlet.css&quot; media=&quot;all&quot;/&gt;&#10;  &lt;link href=&quot;/assets/favicon.ico&quot; rel=&quot;icon&quot; type=&quot;image/x-icon&quot; /&gt;&#10;  &lt;script src=&quot;/assets/jquery-3.1.1.min.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;&#10;  &lt;script src=&quot;/assets/displayhelpservlet.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;&#10;  &lt;script type=&quot;text/javascript&quot;&gt;&#10;    var json = Object.freeze(&apos;{&quot;consoleLink&quot;: &quot;\u002fgrid\u002fconsole&quot;,&quot;type&quot;: &quot;Grid Hub&quot;,&quot;class&quot;: &quot;org.openqa.grid.web.servlet.DisplayHelpHandler$DisplayHelpServletConfig&quot;,&quot;version&quot;: &quot;3.141.59&quot;}&apos;);&#10;  &lt;/script&gt;&#10;&lt;/head&gt;&#10;&lt;body&gt;&#10;&#10;&lt;div id=&quot;content&quot;&gt;&#10;  &lt;div id=&quot;help-heading&quot;&gt;&#10;    &lt;h1&gt;&lt;span id=&quot;logo&quot;&gt;&lt;/span&gt;&lt;/h1&gt;&#10;    &lt;h2&gt;Selenium &lt;span class=&quot;se-type&quot;&gt;&lt;/span&gt;&amp;nbsp;v.&lt;span class=&quot;se-version&quot;&gt;&lt;/span&gt;&lt;/h2&gt;&#10;  &lt;/div&gt;&#10;&#10;  &lt;div id=&quot;content-body&quot;&gt;&#10;    &lt;p&gt;&#10;      Whoops! The URL specified routes to this help page.&#10;    &lt;/p&gt;&#10;    &lt;p&gt;&#10;      For more information about Selenium &lt;span class=&quot;se-type&quot;&gt;&lt;/span&gt; please see the&#10;      &lt;a class=&quot;se-docs&quot;&gt;docs&lt;/a&gt; and/or visit the &lt;a class=&quot;se-wiki&quot;&gt;wiki&lt;/a&gt;.&#10;      &lt;span id=&quot;console-item&quot;&gt;&#10;        Or perhaps you are looking for the Selenium &lt;span class=&quot;se-type&quot;&gt;&lt;/span&gt; &lt;a class=&quot;se-console&quot;&gt;console&lt;/a&gt;.&#10;      &lt;/span&gt;&#10;    &lt;/p&gt;&#10;    &lt;p&gt;&#10;      Happy Testing!&#10;    &lt;/p&gt;&#10;  &lt;/div&gt;&#10;&#10;  &lt;div&gt;&#10;    &lt;footer id=&quot;help-footer&quot;&gt;&#10;      Selenium is made possible through the efforts of our open source community, contributions from&#10;      these &lt;a href=&quot;https://github.com/SeleniumHQ/selenium/blob/master/AUTHORS&quot;&gt;people&lt;/a&gt;, and our&#10;      &lt;a href=&quot;http://www.seleniumhq.org/sponsors/&quot;&gt;sponsors&lt;/a&gt;.&#10;   &lt;/footer&gt;&#10;  &lt;/div&gt;&#10; &lt;/div&gt;&#10;&#10;&lt;/body&gt;&#10;&lt;/html&gt;" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+Unable to parse remote response: <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="/assets/displayhelpservlet.css" media="all"/>
+  <link href="/assets/favicon.ico" rel="icon" type="image/x-icon" />
+  <script src="/assets/jquery-3.1.1.min.js" type="text/javascript"></script>
+  <script src="/assets/displayhelpservlet.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    var json = Object.freeze('{"consoleLink": "\u002fgrid\u002fconsole","type": "Grid Hub","class": "org.openqa.grid.web.servlet.DisplayHelpHandler$DisplayHelpServletConfig","version": "3.141.59"}');
+  </script>
+</head>
+<body>
+
+<div id="content">
+  <div id="help-heading">
+    <h1><span id="logo"></span></h1>
+    <h2>Selenium <span class="se-type"></span>&nbsp;v.<span class="se-version"></span></h2>
+  </div>
+
+  <div id="content-body">
+    <p>
+      Whoops! The URL specified routes to this help page.
+    </p>
+    <p>
+      For more information about Selenium <span class="se-type"></span> please see the
+      <a class="se-docs">docs</a> and/or visit the <a class="se-wiki">wiki</a>.
+      <span id="console-item">
+        Or perhaps you are looking for the Selenium <span class="se-type"></span> <a class="se-console">console</a>.
+      </span>
+    </p>
+    <p>
+      Happy Testing!
+    </p>
+  </div>
+
+  <div>
+    <footer id="help-footer">
+      Selenium is made possible through the efforts of our open source community, contributions from
+      these <a href="https://github.com/SeleniumHQ/selenium/blob/master/AUTHORS">people</a>, and our
+      <a href="http://www.seleniumhq.org/sponsors/">sponsors</a>.
+   </footer>
+  </div>
+ </div>
+
+</body>
+</html>
+	at tasks.functional.TasksTest.AcessarApp(TasksTest.java:20)
+	at tasks.functional.TasksTest.DataInvalida(TasksTest.java:66)
+Caused by: org.openqa.selenium.json.JsonException: 
+Unable to determine type from: <. Last 1 characters read: <
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-E4K4UQN', ip: '192.168.2.116', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: driver.version: RemoteWebDriver
+	at tasks.functional.TasksTest.AcessarApp(TasksTest.java:20)
+	at tasks.functional.TasksTest.DataInvalida(TasksTest.java:66)
+]]></error>
+    <system-err><![CDATA[dez 29, 2022 11:26:02 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMAÇÕES: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+]]></system-err>
+  </testcase>
+  <testcase name="SemData" classname="tasks.functional.TasksTest" time="0.695">
+    <error message="Unable to parse remote response: &lt;!DOCTYPE html&gt;&#10;&lt;html lang=&quot;en&quot;&gt;&#10;&lt;head&gt;&#10;  &lt;meta charset=&quot;UTF-8&quot;&gt;&#10;  &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;/assets/displayhelpservlet.css&quot; media=&quot;all&quot;/&gt;&#10;  &lt;link href=&quot;/assets/favicon.ico&quot; rel=&quot;icon&quot; type=&quot;image/x-icon&quot; /&gt;&#10;  &lt;script src=&quot;/assets/jquery-3.1.1.min.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;&#10;  &lt;script src=&quot;/assets/displayhelpservlet.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;&#10;  &lt;script type=&quot;text/javascript&quot;&gt;&#10;    var json = Object.freeze(&apos;{&quot;consoleLink&quot;: &quot;\u002fgrid\u002fconsole&quot;,&quot;type&quot;: &quot;Grid Hub&quot;,&quot;class&quot;: &quot;org.openqa.grid.web.servlet.DisplayHelpHandler$DisplayHelpServletConfig&quot;,&quot;version&quot;: &quot;3.141.59&quot;}&apos;);&#10;  &lt;/script&gt;&#10;&lt;/head&gt;&#10;&lt;body&gt;&#10;&#10;&lt;div id=&quot;content&quot;&gt;&#10;  &lt;div id=&quot;help-heading&quot;&gt;&#10;    &lt;h1&gt;&lt;span id=&quot;logo&quot;&gt;&lt;/span&gt;&lt;/h1&gt;&#10;    &lt;h2&gt;Selenium &lt;span class=&quot;se-type&quot;&gt;&lt;/span&gt;&amp;nbsp;v.&lt;span class=&quot;se-version&quot;&gt;&lt;/span&gt;&lt;/h2&gt;&#10;  &lt;/div&gt;&#10;&#10;  &lt;div id=&quot;content-body&quot;&gt;&#10;    &lt;p&gt;&#10;      Whoops! The URL specified routes to this help page.&#10;    &lt;/p&gt;&#10;    &lt;p&gt;&#10;      For more information about Selenium &lt;span class=&quot;se-type&quot;&gt;&lt;/span&gt; please see the&#10;      &lt;a class=&quot;se-docs&quot;&gt;docs&lt;/a&gt; and/or visit the &lt;a class=&quot;se-wiki&quot;&gt;wiki&lt;/a&gt;.&#10;      &lt;span id=&quot;console-item&quot;&gt;&#10;        Or perhaps you are looking for the Selenium &lt;span class=&quot;se-type&quot;&gt;&lt;/span&gt; &lt;a class=&quot;se-console&quot;&gt;console&lt;/a&gt;.&#10;      &lt;/span&gt;&#10;    &lt;/p&gt;&#10;    &lt;p&gt;&#10;      Happy Testing!&#10;    &lt;/p&gt;&#10;  &lt;/div&gt;&#10;&#10;  &lt;div&gt;&#10;    &lt;footer id=&quot;help-footer&quot;&gt;&#10;      Selenium is made possible through the efforts of our open source community, contributions from&#10;      these &lt;a href=&quot;https://github.com/SeleniumHQ/selenium/blob/master/AUTHORS&quot;&gt;people&lt;/a&gt;, and our&#10;      &lt;a href=&quot;http://www.seleniumhq.org/sponsors/&quot;&gt;sponsors&lt;/a&gt;.&#10;   &lt;/footer&gt;&#10;  &lt;/div&gt;&#10; &lt;/div&gt;&#10;&#10;&lt;/body&gt;&#10;&lt;/html&gt;" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+Unable to parse remote response: <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="/assets/displayhelpservlet.css" media="all"/>
+  <link href="/assets/favicon.ico" rel="icon" type="image/x-icon" />
+  <script src="/assets/jquery-3.1.1.min.js" type="text/javascript"></script>
+  <script src="/assets/displayhelpservlet.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    var json = Object.freeze('{"consoleLink": "\u002fgrid\u002fconsole","type": "Grid Hub","class": "org.openqa.grid.web.servlet.DisplayHelpHandler$DisplayHelpServletConfig","version": "3.141.59"}');
+  </script>
+</head>
+<body>
+
+<div id="content">
+  <div id="help-heading">
+    <h1><span id="logo"></span></h1>
+    <h2>Selenium <span class="se-type"></span>&nbsp;v.<span class="se-version"></span></h2>
+  </div>
+
+  <div id="content-body">
+    <p>
+      Whoops! The URL specified routes to this help page.
+    </p>
+    <p>
+      For more information about Selenium <span class="se-type"></span> please see the
+      <a class="se-docs">docs</a> and/or visit the <a class="se-wiki">wiki</a>.
+      <span id="console-item">
+        Or perhaps you are looking for the Selenium <span class="se-type"></span> <a class="se-console">console</a>.
+      </span>
+    </p>
+    <p>
+      Happy Testing!
+    </p>
+  </div>
+
+  <div>
+    <footer id="help-footer">
+      Selenium is made possible through the efforts of our open source community, contributions from
+      these <a href="https://github.com/SeleniumHQ/selenium/blob/master/AUTHORS">people</a>, and our
+      <a href="http://www.seleniumhq.org/sponsors/">sponsors</a>.
+   </footer>
+  </div>
+ </div>
+
+</body>
+</html>
+	at tasks.functional.TasksTest.AcessarApp(TasksTest.java:20)
+	at tasks.functional.TasksTest.SemData(TasksTest.java:54)
+Caused by: org.openqa.selenium.json.JsonException: 
+Unable to determine type from: <. Last 1 characters read: <
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-E4K4UQN', ip: '192.168.2.116', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: driver.version: RemoteWebDriver
+	at tasks.functional.TasksTest.AcessarApp(TasksTest.java:20)
+	at tasks.functional.TasksTest.SemData(TasksTest.java:54)
+]]></error>
+    <system-err><![CDATA[dez 29, 2022 11:26:02 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMAÇÕES: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+]]></system-err>
+  </testcase>
+</testsuite>
