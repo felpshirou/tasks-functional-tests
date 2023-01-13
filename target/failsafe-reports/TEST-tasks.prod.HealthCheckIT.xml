@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="tasks.functional.TasksTest" time="3.378" tests="4" errors="0" skipped="0" failures="0">
+<testsuite name="tasks.prod.HealthCheckIT" time="2.634" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_333\jre\bin"/>
@@ -65,8 +65,5 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="SalvarTarefa" classname="tasks.functional.TasksTest" time="3.378"/>
-  <testcase name="DataInvalida" classname="tasks.functional.TasksTest" time="3.347"/>
-  <testcase name="SemData" classname="tasks.functional.TasksTest" time="3.102"/>
-  <testcase name="SemTask" classname="tasks.functional.TasksTest" time="3.35"/>
+  <testcase name="healthCheck" classname="tasks.prod.HealthCheckIT" time="2.634"/>
 </testsuite>

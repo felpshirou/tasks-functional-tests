@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: tasks.functional.TasksTest
+Test set: tasks.prod.HealthCheckIT
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.378 s - in tasks.functional.TasksTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.635 sec - in tasks.prod.HealthCheckIT
